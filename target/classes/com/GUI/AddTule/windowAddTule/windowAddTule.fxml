@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="panelAddTule" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GUI.AddTule.windowAddTule.windowAddTule">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Тип организации" />
+            <ChoiceBox fx:id="typeOrganizationChoiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="К/Л организации" />
+            <ChoiceBox fx:id="surname_ko_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Статус клиента" />
+            <ChoiceBox fx:id="statusClient_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="К/Л водитель" />
+            <ChoiceBox fx:id="surname_vo_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Статус а/м" />
+            <ChoiceBox fx:id="status_auto_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Тип продажи 1" />
+            <ChoiceBox fx:id="typeSales_1_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Тип продажи 2" />
+            <ChoiceBox fx:id="typeSales_2_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Категория сделки" />
+            <ChoiceBox fx:id="categorySales_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="20.0" prefWidth="120.0" text="Тип клиента" />
+            <ChoiceBox fx:id="type_client_choiceBox" layoutX="135.0" layoutY="10.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="buttonAddRecord" layoutX="137.0" layoutY="14.0" mnemonicParsing="false" onAction="#addRecord" prefHeight="25.0" prefWidth="150.0" text="Добавить запись" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
